@@ -1,3 +1,5 @@
+-- This script is used to start an application if it is not running, or to
+-- bring it to the front if it is running but not the frontmost application.
 on run argv
   set appName to item 1 of argv
   set startIt to false
