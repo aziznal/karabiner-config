@@ -43,6 +43,31 @@
           },
 
           {
+            "description": "Hyper t - Toggle Todoist",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "t",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_shift",
+                      "left_command",
+                      "left_control",
+                      "left_option"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "shell_command": "osascript ~/.config/karabiner/custom-scripts/toggle.scpt 'Todoist'"
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+
+          {
             "description": "Hyper o - Toggle Obsidian",
             "manipulators": [
               {
