@@ -18,6 +18,55 @@
         },
         "rules": [
           {
+            "description": "Hyper 1 - Toggle Room Lights",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "1",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_shift",
+                      "left_command",
+                      "left_control",
+                      "left_option"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "shell_command": "curl -X POST -H \"Content-Type: application/json\" -d '{ \"device\": \"light\" }' http://192.168.1.118:8123/api/webhook/room_lights"
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+
+          {
+            "description": "Hyper 2 - Toggle Fan",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "2",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_shift",
+                      "left_command",
+                      "left_control",
+                      "left_option"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "shell_command": "curl -X POST -H \"Content-Type: application/json\" -d '{ \"device\": \"fan\" }' http://192.168.1.118:8123/api/webhook/room_lights"
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
             "description": "Hyper s - Toggle Slack",
             "manipulators": [
               {
@@ -41,7 +90,6 @@
               }
             ]
           },
-
           {
             "description": "Hyper t - Toggle Todoist",
             "manipulators": [
@@ -66,7 +114,6 @@
               }
             ]
           },
-
           {
             "description": "Hyper o - Toggle Obsidian",
             "manipulators": [
@@ -264,7 +311,6 @@
           }
         ]
       },
-
       "devices": [
         {
           "disable_built_in_keyboard_if_exists": false,
