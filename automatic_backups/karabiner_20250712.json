@@ -18,7 +18,6 @@
                     },
                     {
                         "description": "Hyper p - Toggle PixelPerfect",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
@@ -32,7 +31,6 @@
                     },
                     {
                         "description": "Hyper x - Toggle Excalidraw",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
@@ -46,7 +44,6 @@
                     },
                     {
                         "description": "Hyper f - Toggle Figma",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
@@ -60,7 +57,6 @@
                     },
                     {
                         "description": "Hyper e - Toggle Email",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
@@ -74,7 +70,6 @@
                     },
                     {
                         "description": "Hyper o - Toggle Notion",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
@@ -173,7 +168,6 @@
                     },
                     {
                         "description": "Hyper s - Toggle Slack",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
@@ -187,7 +181,6 @@
                     },
                     {
                         "description": "Hyper t - Toggle Todoist",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
@@ -201,7 +194,6 @@
                     },
                     {
                         "description": "Hyper o - Toggle Obsidian",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
